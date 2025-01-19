@@ -47,8 +47,7 @@ More Functionality will be added with time
 
 # ADMIN PANEL
 
-####   Dashboard
-![Screenshot (307)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/4b976ed7-5d5c-4e3e-8e9a-45c3170a0cff)
+
 
 
 
@@ -104,11 +103,11 @@ More Functionality will be added with time
 
 #### Landing Page 
 
-
 ![Screenshot (545)](https://github.com/user-attachments/assets/810c1c76-9ac3-4363-ba35-613bad40a9ae)
 
 #### Catagory Wise
 ![Screenshot (546)](https://github.com/user-attachments/assets/560576ed-b251-499a-b78e-6152c31ed7ee)
+
 ![Screenshot (547)](https://github.com/user-attachments/assets/c7630a15-84a5-42cc-a6c7-1c94f073fee2)
 
 #### Sreach Based
@@ -117,6 +116,12 @@ More Functionality will be added with time
 #### Log in Page & Register Page
 
 ![Screenshot (555)](https://github.com/user-attachments/assets/a04a3c4e-476c-45a4-a30f-85c77b7ce2b0)
+
+## Database Details
+![Database_Details](https://github.com/user-attachments/assets/2038f4a4-9c65-45b6-b867-06b68f9ba2f4)
+
+#### Code Details
+![Code_Details](https://github.com/user-attachments/assets/6404f98c-5b97-44b7-9fba-0b31a8993f54)
 
 
 
