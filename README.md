@@ -6,9 +6,10 @@ A dynamic news website built with PHP, HTML, and CSS. It features a responsive d
  
 ![Screenshot (532)](https://github.com/user-attachments/assets/e15d7775-82d7-43cd-9672-8ad9b48deeaf)
 
+## Database Details
+![Database_Details](https://github.com/user-attachments/assets/2038f4a4-9c65-45b6-b867-06b68f9ba2f4)
 
-
-## Features
+# Features
 
 ### Multi User Login System
 - SignIn / SignUp ✔
@@ -43,7 +44,7 @@ More Functionality will be added with time
 
 
 
-### Screen shots
+##Screen shots
 
 # ADMIN PANEL
 
@@ -101,26 +102,25 @@ More Functionality will be added with time
 
 # VISITOR PANEL
 
-#### Landing Page 
+### Landing Page 
 
 ![Screenshot (545)](https://github.com/user-attachments/assets/810c1c76-9ac3-4363-ba35-613bad40a9ae)
 
-#### Catagory Wise
+### Catagory Wise
 ![Screenshot (546)](https://github.com/user-attachments/assets/560576ed-b251-499a-b78e-6152c31ed7ee)
 
 ![Screenshot (547)](https://github.com/user-attachments/assets/c7630a15-84a5-42cc-a6c7-1c94f073fee2)
 
-#### Sreach Based
+#### Search Based
 ![Screenshot (556)](https://github.com/user-attachments/assets/53e432bd-7bbf-4323-bf67-72b0a98a50ca)
 
 #### Log in Page & Register Page
 
 ![Screenshot (555)](https://github.com/user-attachments/assets/a04a3c4e-476c-45a4-a30f-85c77b7ce2b0)
 
-## Database Details
-![Database_Details](https://github.com/user-attachments/assets/2038f4a4-9c65-45b6-b867-06b68f9ba2f4)
 
-#### Code Details
+
+## Code Details
 ![Code_Details](https://github.com/user-attachments/assets/6404f98c-5b97-44b7-9fba-0b31a8993f54)
 
 
