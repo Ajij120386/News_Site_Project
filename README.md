@@ -11,34 +11,23 @@ A dynamic news website built with PHP, HTML, and CSS. It features a responsive d
 
 ### Multi User Login System
 - SignIn / SignUp ✔
-- Forget Password ✔
 - JWT validation on each Authorized Request ✔
-- Authorization validation for Admin Access and Customer Access ✔
+- Authorization validation for Admin Access and Visitor Access ✔
 
 # ADMIN PANEL
 
- - A dashboard  which show total number of Product , Catagories , Sub-catagories , Bands , orders , Registered User  ✔
+ - A dashboard  which show total number of News Post , Catagories , Registered User  ✔
  - Add / view (Data tables) / update / Delete a Category ✔
- - Add / view (Data tables) / update / Delete a Sub-Category ✔
- - Add / view (Data tables) / update / Delete a Band ✔
- - View All Order &  Handle Order Delivery  ✔
- - Handle User (View / Delete / Block) ✔
+ - Add / view (Data tables) / update / Delete a User ✔
+ - View All News Post &    Add  / update / Delete a Post ✔
  
 
 # USER PANEL
-- View Product & Category ✔
-- view product related to specific category ✔
-- view dynamic pages detail with breadcamp ✔
-- Add product to cart ✔
-- Remove Product from cart ✔
-- Increase Decrease cart Item  Quantity ✔ (IF product Instock Quantity is less then your cart quantity then you are unable to  increase that product Quantity)
-- Alert if InStock Quantity isn't Available ✔
-- Bookmark favourite Product ✔
-- Remove product from bookmark ✔
-- Order a Product ✔
-- After Creating an Order Product Exists in Cart for current User will be Cleared ✔
-- Track Order Status ✔
-- View Order Detail ✔
+ - View All News Post &    Add  / update / Delete own Post ✔
+- view dynamic news Site ✔
+
+# VISITOR PANEL
+- view dynamic news Site ✔
 
 #### Note 
 More Functionality will be added with time
@@ -48,7 +37,6 @@ More Functionality will be added with time
 ## Tech
 - HTML
 - CSS
-- JS
 - PHP
 
 
@@ -63,56 +51,42 @@ More Functionality will be added with time
 
 
 
-####  View All Products
+####  View All News Post
 
 
-![Screenshot (348)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/c7a80449-590c-4bc1-affb-6ebb72d815a7)
 
 
-#### Add New Product
 
-![Screenshot (298)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/3f751cb8-2d39-4dae-a08f-7c27f4fcb74b)
+#### Add New Post
+
+
 
 
 ####  View All Categories
 
-![Screenshot (299)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/6ab8ecb8-c01a-461d-aeca-1913b0a89e9e)
+
 
 
 #### Add New Category
 
-![Screenshot (300)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/5a8a2cda-e6d9-4b28-bb68-7c319e6917d9)
-
-####  View All Sub-Categories
-
-![Screenshot (301)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/947598f3-2129-4f01-bc78-7b5120dd9704)
-
-#### Add New Sub-Category
-
-![Screenshot (308)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/f648536a-dc60-4948-815c-155a5882478d)
-
-####  View All Bands
-
-![Screenshot (302)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/d840781d-465b-4e58-b80a-4ac5188f4d5b)
 
 
-#### Add New Band
-
-![Screenshot (309)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/ae74296f-7a45-4062-8363-acfcc0c70843)
+####  View All User
 
 
-#### View All Order &  Handle Order Delivery
 
-![Screenshot (303)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/f3b038b1-89ba-46ec-a0fc-f9e357fc375f)
+####  Add New User
+
+
 
 
 ####  Handle User (View / Delete / Block) 
 
-![Screenshot (304)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/22c78d0a-b99a-4ae6-b8c1-97b45ff9ec2f)
+
 
 ####  Handle Website Details
 
-![Screenshot (305)](https://github.com/Ajij120386/Ecommerce-Project/assets/66430791/c1d202d1-db00-4932-aa72-524681969191)
+
 
 
 # USER PANEL
