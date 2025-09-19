@@ -1,7 +1,7 @@
 <?php 
 include "header.php"; 
 include "config.php";
-include "cache.php"; // include cache helper
+include "cache.php"; 
 ?>
 
 <div id="admin-content">
@@ -35,7 +35,7 @@ include "cache.php"; // include cache helper
                     // Insert new category
                     $sql = "INSERT INTO category (category_name) VALUES ('{$category}')";
                     if(mysqli_query($conn, $sql)){
-                        // Clear cache after adding category
+                        
                         clearCache();
 
                         header("Location: {$hostname}/admin/category.php");
