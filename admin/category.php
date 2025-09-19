@@ -1,7 +1,7 @@
 <?php
 include "header.php";
 include "config.php";
-include "cache.php"; // Make sure this has isCacheValid(), clearCache(), etc.
+include "cache.php"; 
 ?>
 
 <div id="admin-content">
@@ -20,12 +20,12 @@ $limit = 3;
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 $offset = ($page - 1) * $limit;
 
-// Cache file for current page
+
 $cacheFile = "cache/categories_page_{$page}.html";
 $cacheTime = 300; // 5 minutes
 
 if (isCacheValid($cacheFile, $cacheTime)) {
-    // Serve cached HTML
+    
     echo file_get_contents($cacheFile);
 } else {
     // Fetch categories from DB
