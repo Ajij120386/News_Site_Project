@@ -1,6 +1,6 @@
 <?php
 include "config.php";
-include "cache.php"; // add this
+include "cache.php"; 
 
 if(isset($_FILES['fileToUpload'])){
   $errors = array();
@@ -44,7 +44,7 @@ $sql  = "INSERT INTO post(title, description, category, post_date, author, post_
 $sql .= "UPDATE category SET post = post + 1 WHERE category_id = {$category}";
 
 if(mysqli_multi_query($conn, $sql)){
-    // 🔥 clear cache after saving post
+    
     clearCache();
 
     header("location: {$hostname}/admin/post.php");
