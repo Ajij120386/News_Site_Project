@@ -1,6 +1,6 @@
 <?php
 include "config.php";
-include "cache.php"; // clear cache after update
+include "cache.php"; 
 
 if(empty($_FILES['new-image']['name'])){
   // If no new image uploaded, keep old one
@@ -50,7 +50,7 @@ if($_POST['old_category'] != $_POST["category"]){
 $result = mysqli_multi_query($conn, $sql);
 
 if($result){
-  // 🔥 Clear all cache after update
+  
   clearCache();
 
   header("location: {$hostname}/admin/post.php");
