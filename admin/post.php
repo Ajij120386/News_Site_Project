@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<?php include "cache.php"; ?> <!-- cache functions -->
+<?php include "cache.php"; ?> 
 
 <div id="admin-content">
   <div class="container">
@@ -43,7 +43,7 @@
                     ORDER BY post.post_id DESC LIMIT {$offset},{$limit}";
           }
 
-          // ---- Caching applied here ----
+          
           $cacheKey = "post_list_" . $_SESSION['user_role'] . "_" . $_SESSION['user_id'] . "_page_" . $page;
           $rows = getCache($cacheKey, 300); // 5 minutes cache
 
