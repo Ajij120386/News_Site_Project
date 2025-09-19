@@ -31,7 +31,7 @@ if($_SESSION["user_role"] == '0'){
                   if(mysqli_num_rows($result) > 0){
                 ?>
                   <table class="content-table">
-                      <thead>
+                      <thead>v
                           <th>S.No.</th>
                           <th>Full Name</th>
                           <th>User Name</th>
